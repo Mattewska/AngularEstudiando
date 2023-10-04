@@ -1,0 +1,11 @@
+
+<h3>empleado: {{empleado}}</h3>
+<h3>edad: {{getEdad()}}</h3>
+
+<input type="number" (keyup)="editEdad(inputEdad.value)" #inputEdad [value]="edad">
+
+<br><br>
+
+<input type="text" #inputEmpleado (keyup)="EditEmpleado(inputEmpleado.value)" [value]="empleado" >
+
+
